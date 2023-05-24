@@ -60,5 +60,22 @@ div#vechiles {
   }
 }
 
+@media screen and (max-width: 768px) {
+  div#vechiles {
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  div#vechiles {
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+}
 
 

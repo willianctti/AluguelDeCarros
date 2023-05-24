@@ -60,3 +60,48 @@ div#destines {
 
     box-shadow: 10px 10px 20px rgba(1, 5, 2, 0.267);
   }
+
+@media screen and (max-width: 768px) {
+    div#destines {
+      display: flex;
+      margin-top: -50px;
+      flex-direction: column;
+  }
+
+  .destination img {
+    width: 250px;
+    
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+   
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  div#destines {
+    display: flex;
+    margin-top: -50px;
+    flex-direction: column;
+}
+
+.destination img {
+  width: 350px;
+  
+}
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  
+  }
+
+}

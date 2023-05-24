@@ -50,3 +50,48 @@ body {
     font-weight: bold;
   }
 }
+
+@media screen and (max-width: 768px) {
+  img {
+    display: none;
+  }
+
+  .posBanner {
+    background-color: rgb(233, 233, 233);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto; /* Centraliza horizontalmente */
+
+    width: 350px;
+    height: 370px;
+    margin-top: 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.74);
+  }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  img {
+    height: 350px;
+  }
+  .posBanner {
+    background-color: rgb(233, 233, 233);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto; /* Centraliza horizontalmente */
+
+    width: 550px;
+    height: 370px;
+    margin-top: 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.74);
+  }
+
+
+}
